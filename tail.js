@@ -5,16 +5,17 @@ const assertEqual = function(actual, expected) {
     console.log(`🛑 Assertion Failed: ${actual} !== ${expected}`);
   }
 };
-const head = function(arr) {
-  if(arr.length > 0) {
-    return arr[0];
+
+const tail = function(arr) {
+  if (arr.length > 1) {
+    return arr.slice(1);
   } else {
-    return undefined;
+    return [];
   }
 };
 
 // Test cases
-assertEqual(head([5,6,7]), 5);
-assertEqual(head(["Hello", "Lighthouse", "Labs"]), "Hello");
-assertEqual(head([]), undefined);
-assertEqual(head([42]), 42);
+assertEqual(tail([5,6,7]), [6,7]);
+assertEqual(tail(["Hello", "Lighthouse", "Labs"]), ["Lighthouse", "Labs"]);
+assertEqual(tail([]), []);
+assertEqual(tail([42]), []);
