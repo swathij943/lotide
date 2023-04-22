@@ -9,7 +9,7 @@ const eqArrays = function(arrays1, arrays2) {
   }
 }
 
-const assetArraysEqual = function(actual, expected) {
+const assertArraysEqual = function(actual, expected) {
   if (eqArrays(actual, expected)) {
     console.log(' ✅✅✅ Assertion Passed: ', actual, ' === ', expected);
 } else {
