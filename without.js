@@ -17,7 +17,7 @@ const assertArraysEqual = function(actual, expected) {
 }
 };
 
-const assertArraysEqual = require('./assertArraysEqual');
+//const assertArraysEqual = require('./assertArraysEqual');
 
 const without = function (source, itemsToRemove) {
   let result = [];
