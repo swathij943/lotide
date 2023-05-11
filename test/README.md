@@ -1,4 +1,4 @@
-#Lotide
+# Lotide
 
 The Lotide project is inspired by the Lodash project, which is a utility library for JavaScript. While Lodash itself is quite powerful, our version of it is simpler in order to focus on learning the fundamentals of programming and data management using JavaScript.
 
