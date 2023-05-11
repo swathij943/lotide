@@ -2,9 +2,9 @@
 //Copy your assertEqual function into this new file.
 //Implement a function eqArrays which takes in two arrays and returns true or false, based on a perfect match.
 
-const eqArrays = function(arrays1, arrays2) {
-  for(i = 0; i < arrays1.length; i++) {
-    if(arrays1[i] === arrays2[i]) {
+const eqArrays = function (arrays1, arrays2) {
+  for (i = 0; i < arrays1.length; i++) {
+    if (arrays1[i] === arrays2[i]) {
       return true;
     } else {
       return false;
@@ -12,8 +12,12 @@ const eqArrays = function(arrays1, arrays2) {
     
   }
 }
-console.log(eqArrays([1, 2, 3], [1, 2, 3]))
-console.log(eqArrays([1, 2, 3], [3, 2, 1]))
+
+module.exports = eqArrays;
+
+// console.log(eqArrays([1, 2, 3], [1, 2, 3]))
+// console.log(eqArrays([1, 2, 3], [3, 2, 1]))
+
 // or
 
 /*
