@@ -1,13 +1,3 @@
-
-
-const assertEqual = function(actual, expected) {
-  if (actual === expected) {
-    console.log(`✅ Assertion Passed: ${actual} === ${expected}`);
-  } else {
-    console.log(`🛑 Assertion Failed: ${actual} !== ${expected}`);
-  }
-};
-
 const tail = function(arr) {
   if (arr.length > 1) {
     return arr.slice(1);
@@ -15,9 +5,12 @@ const tail = function(arr) {
     return [];
   }
 };
+module.exports = tail;
 
-// Test cases
-assertEqual(tail([5,6,7]), [6,7]);
-assertEqual(tail(["Hello", "Lighthouse", "Labs"]), ["Lighthouse", "Labs"]);
-assertEqual(tail([]), []);
-assertEqual(tail([42]), []);
+/*
+  // Test cases
+  assertEqual(tail([5,6,7]), [6,7]);
+  assertEqual(tail(["Hello", "Lighthouse", "Labs"]), ["Lighthouse", "Labs"]);
+  assertEqual(tail([]), []);
+  assertEqual(tail([42]), []);
+*/
