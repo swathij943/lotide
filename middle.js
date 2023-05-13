@@ -1,11 +1,12 @@
 //
 const middle = function (arr) {
-  const midStart = Math.floor(arr.length / 2);
+  let midStart = Math.floor(arr.length / 2);
   let midEnd = midStart + 1;
   if (arr.length % 2 === 0) {
     midEnd = midStart + 2;
+    midStart = midStart + 1;
   }
-  const midNumber = arr.slice(arr[midStart], arr[midEnd]);
+  const midNumber = arr.slice(midStart, midEnd);
   return midNumber;
 };
 
