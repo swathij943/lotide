@@ -1,7 +1,7 @@
 const assert = require('chai').assert;
 const findKeyByValue = require('../findKeyByValue');
 
-describe('findKeyByValue', () => {
+describe('#findKeyByValue', () => {
   it('should return the key of a given value in an object', () => {
     const bestTVShowsBYGenre = {
       sci_fi: "Expanse",
