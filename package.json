@@ -1,6 +1,6 @@
 {
   "name": "@swathijayasree/lotide",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "lotide project of the Lighthouse Labs bootcamp",
   "main": "assertArraysEqual.js",
   "directories": {
@@ -16,6 +16,6 @@
     "mocha": "^9.2.2"
   },
   "dependencies": {
-    "@swathijayasree/lotide": "^1.0.0"
+    "@swathijayasree/lotide": "^1.0.1"
   }
 }
